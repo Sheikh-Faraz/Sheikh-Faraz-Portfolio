@@ -1,0 +1,306 @@
+@media screen and (min-width: 834px) and (max-width: 1189px) {
+
+    /* TOP/HEADER SECTION RESPONSIVENESS */
+    .introduction {
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .ml11 {
+        height: 40px;
+        font-size: 40px;
+
+        /* border: 2px solid green; */
+        /* overflow-block: hidden; */
+    }
+
+    .text-wrapper {
+        /* height: 40px; */
+        text-align: center;
+        align-items: center;
+        padding-bottom: 10px;
+        height: 60px;
+        overflow: hidden;
+    }
+    .ml11 .line{
+        height: 80%;
+    }
+    
+    .role {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+    /* ABOUT SECTION RESPONSIVENESS */
+    .About {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 160vh;
+    }
+
+    .about-content {
+        margin: 0;
+    }
+
+    .about-heading {
+        margin: 2vh auto;
+    }
+
+    .img {
+        width: 70%;
+        margin: 40px 0;
+    }
+
+    /* PROJECTS SECTION RESPONSIVENESS */
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-heading {
+        width: 60%;
+    }
+    
+    /* CONTACT SECTION RESPONSIVENESS */
+    
+    .media-icons {
+        font-size: 35px;
+    }
+    
+    .media-heading {
+        font-size: 30px;
+    }
+    
+    .rights {
+        font-size: 15px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 100px) and (max-width: 833px) {
+    
+    /* TOP/HEADER SECTION RESPONSIVENESS */
+    .Header {
+        height: 70vh;
+    }
+    
+    .head-content {
+        padding: 0 20px;
+    }
+    
+    .introduction {
+        font-size: 25px;
+        text-align: left;
+        padding-left: 4rem;
+    }
+    
+    .role {
+        font-size: 15px;
+        padding-left: 4rem;
+    }
+    
+    .ml11 {
+        height: 25px;
+        font-size: 25px;
+    }
+    .ml11 .line{
+        height: 50%;
+    }
+    .text-wrapper {
+        /* height: 40px; */
+        height: 25px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 10px;
+        height: 60px;
+        overflow: hidden;
+    }
+    
+    .btn {
+        font-size: 10px;
+        height: 35px;
+        margin-left: 4rem;
+    }
+    
+    /* ABOUT SECTION RESPONSIVENESS */
+    .About {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 130vh;
+    }
+    
+    .about-content {
+        margin: 0;
+        padding: 0 40px;
+    }
+    
+    .about-heading {
+        /* border: 2px solid red; */
+        width: 25%;
+        margin: 2vh auto;
+        font-size: 20px;
+    }
+
+    .about-role {
+        font-size: 18px;
+    }
+
+    .img {
+        width: 50%;
+        margin: 40px 0;
+    }
+
+    /* PROJECTS SECTION RESPONSIVENESS / TECH STACK */
+    .stack-heading {
+        font-size: 20px;
+    }
+
+    .stack-logo {
+        font-size: 6vh;
+    }
+
+    .projects-heading {
+        font-size: 20px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-content {
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .card-heading {
+        width: 75%;
+        font-size: 20px;
+    }
+
+    .card-description {
+        font-size: 15px;
+    }
+
+    /* CONTACT SECTION RESPONSIVENESS */
+
+    .contact-heading {
+        font-size: 20px;
+    }
+
+    .media-icons {
+        font-size: 25px;
+    }
+
+    .media-heading {
+        font-size: 20px;
+    }
+
+    .rights {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 586px) {
+
+    /* ABOUT SECTION RESPONSIVENESS */
+    .img {
+        width: 60%;
+        height: 25%;
+        margin: 40px 0;
+    }
+    .about-heading {
+        width: 40%;
+        margin: 2vh auto;
+        font-size: 20px;
+    }
+
+    /* PROJECTS / TECH STACK SECTION RESPONSIVENESS */
+    .stack-logo{
+        /* border: 2px solid red; */
+        margin: 10px;
+    }
+    .card{
+        align-items: center;
+        text-align: center;
+        padding: 2rem 2rem;
+    }
+    .project-img{
+        width: 80%;
+    }
+    .card-heading {
+        width: 100%;
+        font-size: 20px;
+    }
+
+
+}
+@media screen and (min-width: 100px) and (max-width: 358px) {
+    
+    .About{
+        overflow: auto;
+        /* border: 2px solid red; */
+        height: 150vh;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 328px) {
+    
+    .About{
+        overflow: auto;
+        /* border: 2px solid blue; */
+        height: 155vh;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 660px)  {
+    .nav-center {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+      }
+    .nav-header{
+        margin-bottom: 20px;
+    }
+    .opacity{
+        opacity: 0;
+    }
+    .navbar{
+        height: 300px;
+        overflow: hidden;
+    }
+    .nav-height{
+        height: 100px;
+    }
+    .ham {
+        display: block;
+        /* background-color: white; */
+    }
+    .nav-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-lists{
+        padding: 10px 0;
+    }
+
+    .active{
+        opacity: 1;
+        transition: all 0.8s ease-out;
+    }
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@500&display=swap"rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/Animations.css">
+    <link rel="stylesheet" href="./Css/Responsive.css">
+    <title>Sheikh-Faraz Portfolio</title>
+</head>
+
+<body>
+
+    <!----------------------------------------- NAVBAR ----------------------------------------->
+
+     <div class="nav-container"> 
+    <nav class="navbar nav-center nav-height">
+        <div class="nav-header">
+            <div class="Logo Animation ">Faraz</div>            
+        </div>
+        <ul class="nav-items fading links opacity">
+            <li class="nav-lists Animation"><a href="#Home" class="Dark-Hover">Home</a></li>
+            <li class="nav-lists Animation"><a href="#About" class="Dark-Hover">About</a></li>
+            <li class="nav-lists Animation"><a href="#Projects" class="Dark-Hover">Projects</a></li>
+            <li class="nav-lists Animation"><a href="#Contact" class="Dark-Hover">Contact</a></li>
+        </ul>
+        <!-- <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </button> -->
+        <div class="ham">
+            <div id="hamburger-menu" class="closed" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+
+        </div>
+    </nav>
+    </div>
+
+    <!----------------------------------------- HEADER/TOP-SECTION ----------------------------------------->
+    <header class="Header" id="Home">
+        
+        <div class="head">
+            <div class="head-content">
+                <h1 class="introduction ">Hello!</h1>
+                <div class="intro-name">
+                    <h1 class="introduction">I Am</h1>
+                    <h1 class="ml11 responsive">
+                        <span class="text-wrapper">
+                            <div class="contain">
+                                <span class="line line1"></span>
+                                <span class="letters"> Sheikh Faraz</span>
+                            </div>
+                        </span>
+                    </h1>
+                </div>
+                <p class="role ">I'm a Full Stack Web Developer especialized in MERN Stack. A Web Developer with a</p>
+                <p class="role ">passion for learning and much more.</p>
+                <button class="btn Light-Hover ">Contact Me</button>
+            </div>
+        </div>
+    </header>
+
+    <!----------------------------------------- ABOUT SECTION ----------------------------------------->
+    <div class="About-container">
+        <section class="About" id="About">
+            <img src="./images/composed3.jpg" alt="imgage" srcset="" class="img slide-in from-left">
+            <div class="about-content slide-in from-right">
+                <h1 class="about-heading Animation">ABOUT ME</h1>
+                <h2 class="about-role">Full Stack Developer</h2>
+                <p class="about-description"> 
+                    <p class="about-description-child">Hey, my name Faraz. I'm a passionate web developer specializing in the MERN stack with a keen interest in software engineering.</p>
+                    With a drive for continuous improvement, I'm dedicated to staying at the forefront of technology and innovation. My approach to problem-solving is fueled by creativity and a strong work ethic.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!----------------------------------------- TECH STACK ----------------------------------------->
+
+    <div class="stack" id="stack">
+        <h1 class="stack-heading">Tech Stack</h1>
+        <i class="fa-brands fa-html5 stack-logo"></i>
+        <i class="fa-brands fa-css3-alt stack-logo"></i>
+        <i class="fa-brands fa-js stack-logo"></i>
+        <i class="fa-brands fa-react stack-logo"></i>
+        <i class="fa-brands fa-node stack-logo"></i>
+        <i class="fa-brands fa-npm stack-logo"></i>
+        <i class="fa-brands fa-github stack-logo"></i>
+        <i class="fa-solid fa-database stack-logo"></i>
+
+    </div>
+
+    <!----------------------------------------- PROJECT SECTION ----------------------------------------->
+
+    <section class="Projects" id="Projects">
+        <h1 class="projects-heading Animation">Projects</h1>
+            <div class="card">
+                <img src="./images/Laptop1.jpg" alt="project1" class="project-img">
+                <div class="card-content">
+                    <h1 class="card-heading">Ecommerence Store</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsam facere corrupti, id magni voluptatem minus quisquam quae libero quos dolores enim debitis voluptates eligendi distinctio sit porro, quam pariatur! Quisquam debitis doloribus quibusdam aliquid hic placeat, dolores excepturi tempore veritatis totam voluptatibus id odio ex sit. Placeat, ducimus! Et!</p>
+                    <button class="projects-btn Light-Hover">View Project</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/Laptop2.jpg" alt="project1" class="project-img">
+                <div class="card-content">
+                    <h1 class="card-heading">Advanced To-Do App</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsam facere corrupti, id magni voluptatem minus quisquam quae libero quos dolores enim debitis voluptates eligendi distinctio sit porro, quam pariatur! Quisquam debitis doloribus quibusdam aliquid hic placeat, dolores excepturi tempore veritatis totam voluptatibus id odio ex sit. Placeat, ducimus! Et!</p>
+                    <button class="projects-btn Light-Hover">View Project</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/composed3.jpg" alt="project1" class="project-img">
+                <div class="card-content">
+                    <h1 class="card-heading">Weather App</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsam facere corrupti, id magni voluptatem minus quisquam quae libero quos dolores enim debitis voluptates eligendi distinctio sit porro, quam pariatur! Quisquam debitis doloribus quibusdam aliquid hic placeat, dolores excepturi tempore veritatis totam voluptatibus id odio ex sit. Placeat, ducimus! Et!</p>
+                    <button class="projects-btn Light-Hover">View Project</button>
+                </div>
+            </div>
+            </section>
+
+    <!----------------------------------------- FOOTER / CONTACT SECTION --------------------------------------->
+
+    <section class="Contact" id="Contact">
+        <h1 class="contact-heading Animation">Contact</h1>
+        <form class="form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="c31dcf2e-fe27-4d0f-83a5-73a35bd22b94">
+            <input type="text" name="name" class="form-input" placeholder="Your Name" required>
+            <input type="email" name="email" class="form-input" placeholder="Your Email" required>
+            <textarea name="message" class="form-input" placeholder="Your Message" rows="5" cols="30"></textarea>
+            <input type="submit" value="Submit" class="form-btn Light-Hover">
+        </form>
+        <div class="media">
+            <p class="media-heading">Get in touch!</p>
+            <a href="http://www.facebook.com/sheikh.fz.52" target="_blank"><i class="fa-brands fa-facebook media-icons"></i></a>
+            <a href="https://github.com/Sheikh-Faraz" target="_blank"><i class="fa-brands fa-github media-icons"></i></a>
+            <a href="https://www.linkedin.com/in/sheikh-faraz-ahmad-5b9978262" target="_blank"><i class="fa-brands fa-linkedin media-icons"></i></a>
+            <a href="https://wa.me/+923099836331" target="_blank"><i class="fa-brands fa-whatsapp media-icons"></i></a>
+        </div>
+        <div class="rights">© <p id="date"> 2023 </p> Faraz. All Rights Reserved</div>
+    </section>
+
+
+    <!----------------------------------------- PRELOADER OR LOADING ANIMATION ----------------------------------------->
+
+    <div class="loading">
+        <div class="spinner" id="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://kit.fontawesome.com/6fb6fa7b89.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</html>
