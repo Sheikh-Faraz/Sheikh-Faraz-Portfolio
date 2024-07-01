@@ -1,270 +1,202 @@
-@media screen and (min-width: 834px) and (max-width: 1189px) {
-
-    /* TOP/HEADER SECTION RESPONSIVENESS */
-    .introduction {
-        font-size: 40px;
-        text-align: left;
+@media screen and (max-width: 1187px) {
+    /* ----------------------------- HEADER SECTION -------------------------------  */
+    .Header{
+        padding-bottom: 80px;
     }
-
-    .ml11 {
-        height: 40px;
-        font-size: 40px;
-
-        /* border: 2px solid green; */
-        /* overflow-block: hidden; */
-    }
-
-    .text-wrapper {
-        /* height: 40px; */
-        text-align: center;
-        align-items: center;
-        padding-bottom: 10px;
-        height: 60px;
-        overflow: hidden;
-    }
-    .ml11 .line{
-        height: 80%;
-    }
-    
-    .role {
-        font-size: 15px;
-    }
-
-    .btn {
-        font-size: 15px;
-    }
-
-    /* ABOUT SECTION RESPONSIVENESS */
-    .About {
-
-        display: flex;
+    /* ----------------------------- ABOUT SECTION ------------------------------- */
+    .About{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        height: 160vh;
     }
-
-    .about-content {
-        margin: 0;
-    }
-
-    .about-heading {
-        margin: 2vh auto;
-    }
-
-    .img {
-        width: 70%;
-        margin: 40px 0;
-    }
-
-    /* PROJECTS SECTION RESPONSIVENESS */
-    .card {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card-heading {
-        width: 60%;
-    }
-    
-    /* CONTACT SECTION RESPONSIVENESS */
-    
-    .media-icons {
-        font-size: 35px;
-    }
-    
-    .media-heading {
-        font-size: 30px;
-    }
-    
-    .rights {
-        font-size: 15px;
-    }
-
-
-
-}
-
-@media screen and (min-width: 100px) and (max-width: 833px) {
-    
-    /* TOP/HEADER SECTION RESPONSIVENESS */
-    .Header {
-        height: 70vh;
-    }
-    
-    .head-content {
-        padding: 0 20px;
-    }
-    
-    .introduction {
-        font-size: 25px;
-        text-align: left;
-        padding-left: 4rem;
-    }
-    
-    .role {
-        font-size: 15px;
-        padding-left: 4rem;
-    }
-    
-    .ml11 {
-        height: 25px;
-        font-size: 25px;
-    }
-    .ml11 .line{
-        height: 50%;
-    }
-    .text-wrapper {
-        /* height: 40px; */
-        height: 25px;
+    .about-heading{
+        margin-top: 30px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
         text-align: center;
         align-items: center;
-        padding-bottom: 10px;
-        height: 60px;
-        overflow: hidden;
     }
-    
-    .btn {
-        font-size: 10px;
-        height: 35px;
-        margin-left: 4rem;
-    }
-    
-    /* ABOUT SECTION RESPONSIVENESS */
-    .About {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        height: 130vh;
-    }
-    
-    .about-content {
-        margin: 0;
-        padding: 0 40px;
-    }
-    
-    .about-heading {
-        /* border: 2px solid red; */
-        width: 25%;
-        margin: 2vh auto;
-        font-size: 20px;
-    }
-
-    .about-role {
-        font-size: 18px;
-    }
-
-    .img {
-        width: 50%;
-        margin: 40px 0;
-    }
-
-    /* PROJECTS SECTION RESPONSIVENESS / TECH STACK */
-    .stack-heading {
-        font-size: 20px;
-    }
-
-    .stack-logo {
-        font-size: 6vh;
-    }
-
-    .projects-heading {
-        font-size: 20px;
-    }
-
-    .card {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card-content {
-        margin: 10px 0;
+    .about-content{
         padding: 0;
+        margin-top: 0;
+        margin-bottom: 30px;
     }
-
-    .card-heading {
-        width: 75%;
-        font-size: 20px;
+    .img{
+        max-width: 50%;
+        margin: 0 ;
     }
-
-    .card-description {
-        font-size: 15px;
-    }
-
-    /* CONTACT SECTION RESPONSIVENESS */
-
-    .contact-heading {
-        font-size: 20px;
-    }
-
-    .media-icons {
-        font-size: 25px;
-    }
-
-    .media-heading {
-        font-size: 20px;
-    }
-
-    .rights {
-        font-size: 13px;
-    }
-}
-
-
-@media screen and (min-width: 100px) and (max-width: 586px) {
-
-    /* ABOUT SECTION RESPONSIVENESS */
-    .img {
-        width: 60%;
-        height: 25%;
-        margin: 40px 0;
-    }
-    .about-heading {
-        width: 40%;
-        margin: 2vh auto;
-        font-size: 20px;
-    }
-
-    /* PROJECTS / TECH STACK SECTION RESPONSIVENESS */
-    .stack-logo{
-        /* border: 2px solid red; */
-        margin: 10px;
+    /* ----------------------------- PROJECT SECTION ------------------------------- */
+    .projects-heading{
+        width: 100%;
+        text-align: center;
     }
     .card{
+        flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 2rem 2rem;
+        justify-content: center;
+    }
+    .card-content{
+        margin: 0;
+        padding: 0;
+    }
+    .card-heading{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .projects-btn{
+        margin: 20px auto;
+    }
+    /* ----------------------------- CONTACT SECTION ------------------------------- */
+    .contact-heading{
+        width: 100%;
+        text-align: center;
+    }
+} 
+
+@media screen and (max-width: 868px) {
+    /* ------------------------------ HEADER SECTION ------------------------------- */
+    .text-wrapper{
+        font-size: 3rem;
+        /* border: 1px solid red; */
+        overflow-x: hidden;
+    }
+    .introduction{
+        font-size: 3rem;
+        padding-left: 2rem;
+    }
+    .role{
+        padding-left: 2rem;
+    }
+    .btn{
+        margin: 1.5rem 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 760px) {
+    /* ----------------------------- ABOUT SECTION ------------------------------- */
+    .img{
+        margin: 0 auto;
+    }
+    /* ----------------------------- CONTACT SECTION ------------------------------- */
+    .media-heading{
+        font-size: 30px;
+    }
+    .media-icons{
+        font-size: 7vh;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    /* ----------------------------- PROJECT SECTION ------------------------------- */
+    .card{
+        padding: 20px;
+    }
+    .card-content{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    /* ------------------------------ PROJECT SECTION ------------------------------- */
+    .card-heading{
+        border-bottom: none;
+    }
+}
+@media  screen and (max-width: 496px) {
+    /* ----------------------------- HEADER SECTION ------------------------------- */
+    .text-wrapper{
+        font-size: 1.5rem;
+        align-items: center;
+    }
+    .introduction{
+        font-size: 1.5rem;
+        /* padding-left: 2rem; */
+    }
+    .intro-name{
+        /* border: 2px solid green; */
+        text-align: center;
+        align-items: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .role{
+        font-size: 15px;
+    }
+    /* ----------------------------- STACK SECTION ------------------------------- */
+    .stack-heading{
+        font-size: 5vh;
+    }
+    .stack-logo{
+        font-size: 5vh;
+        margin: 10px;
     }
     .project-img{
-        width: 80%;
+        max-width: 50%;
     }
-    .card-heading {
-        width: 100%;
+    
+}
+
+@media screen and (max-width: 327px) {
+    /* ----------------------------- HEADER SECTION ------------------------------- */
+    .text-wrapper{
+        font-size: 1.2rem;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .introduction{
+        font-size: 1.2rem;
+    }
+    .intro-name{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .role{
+        font-size: 15px;
+    }
+    /* ----------------------------- ABOUT SECTION ------------------------------- */
+    .about-heading{
         font-size: 20px;
     }
-
-
-}
-@media screen and (min-width: 100px) and (max-width: 358px) {
-    
-    .About{
-        overflow: auto;
-        /* border: 2px solid red; */
-        height: 150vh;
+    .about-role{
+        font-size: 18px;
+    }
+    .about-description-child{
+        font-size: 15px;
+        font-weight: 450;
+    }
+    .about-description{
+        font-size: 15px;
+    }
+    /* ----------------------------- PROJECT SECTION ------------------------------- */
+    .projects-heading{
+        font-size: 20px;
+    }
+    .card-heading{
+        font-size: 20px;
+    }
+    .card-description{
+        font-size: 15px;
+    }
+    /* ----------------------------- CONTACT SECTION ------------------------------- */
+    .contact-heading{
+        font-size: 20px;
+    }
+    .media-icons{
+        font-size: 5vh;
+    } 
+    .rights{
+        font-size: 10px;
     }
 }
-@media screen and (min-width: 100px) and (max-width: 328px) {
-    
-    .About{
-        overflow: auto;
-        /* border: 2px solid blue; */
-        height: 155vh;
-        padding-bottom: 20px;
-    }
-}
 
-
+/* ----------------------------- NAVBAR RESPONSIVE ------------------------------- */
 @media screen and (max-width: 660px)  {
     .nav-center {
         margin: 0 auto;

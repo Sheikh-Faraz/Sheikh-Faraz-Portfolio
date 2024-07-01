@@ -39,9 +39,10 @@ body{
 
 .Header {
     padding-top: 1px;
+    padding-bottom: 20px;
     background-color: var(--Background-color);
-    height: 100vh;
     display: none;
+    /* border:2px solid red; */
 }
 
 /* -------------------------------> NAVBAR */
@@ -51,8 +52,6 @@ body{
     top: 0;
     z-index: 10;
 }
-
-
 .nav-header {
     display: flex;
     align-items: center;
@@ -77,9 +76,6 @@ body{
   .nav.list-toggle{
     display: block;
   }
-
-
-
 
 .navbar {
     display: flex;
@@ -110,14 +106,13 @@ body{
 .nav-lists {
     margin: 0 20px;
 }
-li a{
+ a{
     text-decoration: none;
     list-style: none;
     color: var(--Font-color);
 }
 
 /* -------------------------------> HEAD/CONTAING-TEXT */
-
 .head-content {
     text-align: center;
     margin-top: 15vh;
@@ -168,7 +163,9 @@ li a{
     background-color: var(--Background-color);
     color: var(--White-color);
     font-family: var(--Primary-font);
-    height: 100vh;
+    /* height: 100vh; */
+    /* border:2px solid red; */
+    padding:10px 0;
     display: flex;
     font-family: var(--Primary-font);
 }
@@ -176,7 +173,6 @@ li a{
     /* border: 2px solid red; */
     margin: 20vh 5vh;
     padding-right: 4vh;
-    height: 60vh;
 }
 .about-heading{
     width: 20%;
@@ -193,10 +189,8 @@ li a{
 }
 .img{
     margin: 20vh 5vh;
-    height: 60vh;
-    width:40vw;
     border-radius: 5px;
-    /* z-index: 1; */
+    max-width:40vw;
 }
 
 /* ------------------------------------------------------------------------------------------ */
@@ -231,13 +225,13 @@ li a{
     padding-top: 10vh;
 }
 .projects-heading{
-    /* border: 2px solid red; */
     margin:  auto;
     padding: 10px 0;
     font-size: 2rem;
     width: 10%;
 }
 .card{
+    /* border: 2px solid red; */
     display: flex;
     padding: 8vh 10rem;
 }
@@ -255,7 +249,8 @@ li a{
     margin: 10px 0;
 }
 .project-img{
-    height: 50vh;
+    max-height: 50vh;
+    /* border:2px solid red; */
     border-radius: 5px;
 }
 .projects-btn{
@@ -323,7 +318,7 @@ li a{
     cursor: pointer;
 }
 .media{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -333,12 +328,12 @@ li a{
 .media-heading{
     font-size: 50px;
     font-weight: bold;
-    border-bottom: 2px solid white;
+    /* border-bottom: 2px solid white; */
     font-family: var(--Primary-font);
 }
 .media-icons{
     font-size: 9vh;
-    margin: 0 10px;
+    margin: 25px 10px;
     color: white;
     padding: 0 20px;
 }
@@ -351,7 +346,8 @@ li a{
     text-align: center;
     font-family: var(--Primary-font);
     font-size: 20px;
-    height: 10vh;
+    /* border:2px solid red; */
+    padding: 20px 0;
     font-weight: bold;
     color: var(--Font-color);
     background-color: var(--DarkBg-color);

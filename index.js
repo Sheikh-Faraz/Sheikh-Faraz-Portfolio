@@ -1,4 +1,4 @@
-  /* ------------------------------- TEXT ANIMAION ------------------------------- */
+/* ------------------------------- TEXT ANIMAION ------------------------------- */
 
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml11 .letters');
